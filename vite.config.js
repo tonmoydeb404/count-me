@@ -16,8 +16,8 @@ export default defineConfig({
       manifest: {
         name: "Count Me",
         short_name: "Count Me",
-        theme_color: "#2196f3",
-        background_color: "#2196f3",
+        theme_color: "#f1525e",
+        background_color: "#f1525e",
         display: "standalone",
         scope: "/",
         start_url: "/",
@@ -25,7 +25,7 @@ export default defineConfig({
         icons: [
           {
             src: "./maskable_icon.png",
-            sizes: "512x512",
+            sizes: "727x727",
             type: "image/png",
             purpose: "any maskable",
           },
