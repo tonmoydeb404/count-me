@@ -1,0 +1,28 @@
+{
+  "name": "count-me",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-bootstrap-icons": "^1.8.4",
+    "react-dom": "^18.2.0",
+    "sweetalert2": "^11.4.31",
+    "sweetalert2-react-content": "^5.0.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "vite": "^3.1.0",
+    "vite-plugin-pwa": "^0.12.6",
+    "workbox-precaching": "^6.5.4"
+  }
+}

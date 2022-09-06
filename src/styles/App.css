@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fcfcfc;
+}
+
+.counter_title {
+  font-size: 14px;
+  display: inline-block;
+  align-self: flex-start;
+  padding: 5px 15px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 0;
+}
+
+.counter_display {
+  margin-top: 0;
+  border-top-left-radius: 0;
+}
+
+.counter_number {
+  font-size: 42px;
+}
+
+.counter_controls,
+.counter_controls > div {
+  gap: 5px;
+}
+
+.counter_controls .btn {
+  border-radius: 2px;
+  flex: 1;
+  min-width: fit-content;
+}
